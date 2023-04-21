@@ -1,10 +1,11 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import profilePic from "../../public/images/profile/picture-4.png";
+import profilePic from "../../public/images/profile/profile-1.png";
 import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
 
 export default function Home() {
   return (
@@ -35,6 +36,8 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+
+        <HireMe />
       </main>
     </>
   );
