@@ -1,11 +1,13 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
-import profilePic from "../../public/images/profile/profile-1.png";
+import profilePic from "../../public/images/profile/profile-8.png";
 import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
+
+import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 
 export default function Home() {
   return (
@@ -38,6 +40,9 @@ export default function Home() {
         </Layout>
 
         <HireMe />
+        <div className="absolute right-8 bottom-8 inline-block w-20">
+          <Image src={lightBulb} alt="ThingsUIX" className="w-full h-auto" />
+        </div>
       </main>
     </>
   );

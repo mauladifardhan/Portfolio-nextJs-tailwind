@@ -8,11 +8,11 @@ const Footer = () => {
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
         <div className="flex items-center">
           Build With <span className="text-primary text-2xl px-1"> &#9825;</span>by&nbsp;
-          <Link href="https://instagram.com/thingsuix" className="underline underline-offset-2">
+          <Link href="https://instagram.com/thingsuix" target="_blank" className="underline underline-offset-2">
             ThingsUIX
           </Link>
         </div>
-        <Link href="https://instagram.com/thingsuix" target="_blank">
+        <Link href="https://instagram.com/mauladifardhan" target="_blank">
           Say Hello
         </Link>
       </layout>
