@@ -10,9 +10,12 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
       <motion.div initial={{ y: 50 }} whileInView={{ y: 0 }} transition={{ duration: 0.5, type: "spring" }}>
         <h3 className="capitalize font-bold text-2xl">
           {position}&nbsp;
-          <a href={companyLink} target="_blank" className="text-primary capitalize">
-            @{company}
-          </a>
+          <h4>
+            {" "}
+            <a href={companyLink} target="_blank" className="text-primary capitalize">
+              @{company}
+            </a>
+          </h4>
         </h3>
         <span className="capitalize font-medium text-dark/75 ">
           {time} | {address}
@@ -36,47 +39,46 @@ const Experience = () => {
         <motion.div style={{ scaleY: scrollYProgress }} className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top" />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
+            position="Frontend Developer"
+            company="PT Mitra Transaksi Indonesia | Yokke!"
+            companyLink="https://www.yokke.co.id/id"
+            time="2021-Present"
+            address="Millennium Centennial Center, 17th Floor, South Jakarta"
             work="
 Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
           />
           <Details
-            position="Software Engineer"
-            company="Google"
+            position="Software Engineer (Freelance)"
+            company="PT Mutiara Mandiri Solusi"
             companyLink="www.google.com"
             time="2022-Present"
-            address="Mountain View, CA"
+            address="West Bekasi, Bekasi City"
             work="
 Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
           />
           <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
+            position="Java Developer"
+            company="ID Star Cipta Teknologi"
+            companyLink="https://idstar.co.id/id/"
+            time="2020-2021"
+            address="Wisma Staco, 7th Floor"
             work="
 Worked on a team responsible for developing new features for Google's 
 search engine, including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
           />
           <Details
-            position="Software Engineer"
-            company="Google"
+            position="Asisstant Project Manager"
+            company="GNV Solution"
             companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
+            time="2018-2019"
+            address="Menara AIA, Kuningan"
             work="
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
+Worked on a team responsible for create schedule and add some new features in Bank Banten. including improving the accuracy and relevance of search results and 
 developing new tools for data analysis and visualization."
           />
         </ul>
