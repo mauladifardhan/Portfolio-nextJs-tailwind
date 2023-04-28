@@ -31,7 +31,7 @@ const Skills = () => {
         <Skill name="Figma" x="15vw" y="-12vw" className="bg-red-700" />
         <Skill name="Canva" x="31vw" y="-5vw" className="bg-orange-700" />
         <Skill name="Spark AR" x="0vw" y="-20vw" className="bg-amber-700" />
-        <Skill name="Laravel" x="-25vw" y="18vw" className="bg-lime-700" />
+        <Skill name="Android XML" x="0vw" y="23vw" className="bg-lime-700" />
         <Skill name="Bootstrap" x="18vw" y="16vw" className="bg-emerald-700" />
         <Skill name="Laravel" x="-25vw" y="18vw" className="bg-indigo-700" />
         <Skill name="Web Design" x="-35vw" y="-5vw" className="bg-sky-600" />

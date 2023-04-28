@@ -7,6 +7,7 @@ import profilePic from "../../public/images/profile/picture-4.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -35,7 +36,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>Things UIX | mauladifardhan</title>
+        <title>Things UIX | About</title>
         <meta name="description" content="any description" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center">
@@ -81,6 +82,7 @@ const about = () => {
           </div>
           <Skills />
           <Experience />
+          <Education />
         </Layout>
       </main>
     </>
