@@ -4,11 +4,11 @@ import Layout from "@/components/Layout";
 
 const Footer = () => {
   return (
-    <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg">
-      <Layout className="py-8 flex items-center justify-between">
+    <footer className="w-full border-t-2 border-solid border-dark font-medium text-lg dark:border-light">
+      <Layout className="py-8 flex items-center justify-between dark:text-light">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
         <div className="flex items-center">
-          Build With <span className="text-primary text-2xl px-1"> &#9825;</span>by&nbsp;
+          Build With <span className="text-primary text-2xl px-1 dark:text-light"> &#9825;</span>by&nbsp;
           <Link href="https://instagram.com/thingsuix" target="_blank" className="underline underline-offset-2">
             ThingsUIX
           </Link>
