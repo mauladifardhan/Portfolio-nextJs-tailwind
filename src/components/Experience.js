@@ -42,9 +42,7 @@ const Experience = () => {
             time="2021-Present"
             address="Millennium Centennial Center, 17th Floor, South Jakarta"
             work="
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            Worked on a team responsible for developing Android and conventional EDC machine applications for banks in Indonesia and certifying card brands such as Visa, Mastercard and JCB"
           />
           <Details
             position="Software Engineer (Freelance)"
@@ -53,9 +51,7 @@ developing new tools for data analysis and visualization."
             time="2022-Present"
             address="West Bekasi, Bekasi City"
             work="
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            develop websites such as portfolio, company profile and admin store using HTML, CSS and Javascript programming languages ​​such as react.js , vue.js and next.js"
           />
           <Details
             position="Java Developer"
@@ -64,9 +60,7 @@ developing new tools for data analysis and visualization."
             time="2020-2021"
             address="Wisma Staco, 7th Floor"
             work="
-Worked on a team responsible for developing new features for Google's 
-search engine, including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            work as a team by creating a web store so that you can make payments using the java springboot language and ISO Message 8583."
           />
           <Details
             position="Asisstant Project Manager"
@@ -75,8 +69,7 @@ developing new tools for data analysis and visualization."
             time="2018-2019"
             address="Menara AIA, Kuningan"
             work="
-Worked on a team responsible for create schedule and add some new features in Bank Banten. including improving the accuracy and relevance of search results and 
-developing new tools for data analysis and visualization."
+            keeping records of the work of a project manager at the Bank Banten project by handling the project business at the Bank Banten so that it complies with Bank Indonesia regulations"
           />
         </ul>
       </div>

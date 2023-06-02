@@ -8,7 +8,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
-import TransitionEffect from "@/components/transitionEffect";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -48,10 +48,9 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light">Biography</h2>
               <p className="font-medium">
-                Hi, I&apos;m Fardhan Mauladi, a web developer and UI/UX designer with a passion for creating beautiful, functional, and user-centered digital experiences. With 2 years of experience in the field. I am always looking for new
-                and innovative ways to bring my clients visions to life
+                Hi, I&apos;m Fardhan Mauladi, a passionate Frontend Developer and UI Designer with a keen eye for creating captivating and user-friendly digital experiences. I specialize in translating design concepts into beautiful, interactive websites and applications that not only look great but also provide seamless user experiences.
               </p>
-              <p className="my-4 font-medium">I believe that design is about more than just making things look pretty it&apos;s about solving problems and creating intuitive, enjoyable experiences for users. </p>
+              <p className="my-4 font-medium">My journey as a frontend developer began when I discovered my love for both technology and design. With a strong foundation in HTML, CSS, and JavaScript, I strive to stay up-to-date with the latest trends and advancements in frontend development. I&apos;m constantly exploring new frameworks, libraries, and tools to enhance my skillset and improve the efficiency of my work. </p>
               <p className="font-medium">
                 Whether I&apos;m working on a website, mobile app, or other digital product, I bring my commitment to design excellence and user-centered thinking to every project I work on. I look forward to the opportunity to bring my
                 skills and passion to your next project.

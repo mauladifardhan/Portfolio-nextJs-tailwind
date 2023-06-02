@@ -14,7 +14,7 @@ import article7 from "../../public/images/articles/article7.png";
 import article8 from "../../public/images/articles/article8.png";
 
 import { motion, useMotionValue } from "framer-motion";
-import TransitionEffect from "@/components/transitionEffect";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 

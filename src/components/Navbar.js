@@ -65,7 +65,7 @@ const Navbar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
@@ -78,7 +78,7 @@ const Navbar = () => {
           <motion.a href="https://www.behance.net/fardhanmauladi" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3">
             <BehanceIcon />
           </motion.a>
-          <motion.a href="https://twitter.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3">
+          <motion.a href="https://twitter.com/mauladifardhan" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3">
             <TwitterIcon />
           </motion.a>
           <motion.a href="https://instagram.com/mauladifardhan" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 ml-3">
@@ -103,7 +103,7 @@ const Navbar = () => {
             <CustomMobileLink href="/" title="Home" className="" toogle={handleClick} />
             <CustomMobileLink href="/about" title="About" className="" toogle={handleClick} />
             <CustomMobileLink href="/projects" title="Projects" className="" toogle={handleClick} />
-            <CustomMobileLink href="/articles" title="Articles" className="" toogle={handleClick} />
+            {/* <CustomMobileLink href="/articles" title="Articles" className="" toogle={handleClick} /> */}
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
@@ -116,7 +116,7 @@ const Navbar = () => {
             <motion.a href="https://www.behance.net/fardhanmauladi" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1 bg-light dark:bg-dark rounded-lg">
               <BehanceIcon />
             </motion.a>
-            <motion.a href="https://twitter.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1">
+            <motion.a href="https://twitter.com/mauladifardhan" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1">
               <TwitterIcon />
             </motion.a>
             <motion.a href="https://instagram.com/mauladifardhan" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 ml-3 sm:mx-1 bg-light dark:bg-dark rounded-lg">

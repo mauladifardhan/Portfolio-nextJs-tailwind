@@ -13,7 +13,7 @@ const Footer = () => {
             ThingsUIX
           </Link>
         </div>
-        <Link href="https://instagram.com/mauladifardhan" target="_blank">
+        <Link href="https://bit.ly/mauladifardhan" target="_blank">
           Say Hello
         </Link>
       </Layout>

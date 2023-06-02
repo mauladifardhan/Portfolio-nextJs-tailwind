@@ -6,8 +6,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import selaras from "../../public/images/projects/selaras.png";
+import thingsUix from "../../public/images/projects/things-uix.png";
+import kalkulatorZakat from "../../public/images/projects/kalkulator-zakat.png";
+import webAdmin from "../../public/images/projects/dashboard-admin.png";
+import jakartaGym from "../../public/images/projects/jakarta-super-gym.png";
+
 import { motion } from "framer-motion";
-import TransitionEffect from "@/components/transitionEffect";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -97,53 +102,32 @@ const projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Wedding Organizer Website"
-                img={selaras}
-                summary="Website landing page about Wedding Organizer for Selaras Wedding Organizer. Create with HTML, CSS with Bootstrap. you can see portfolio about wedding organizer"
-                link="https://www.selaras-organizer.com/"
-                type="Featured Project"
-                github="/"
-              />
+              <Project title="Design Web Things UIX" img={thingsUix} summary="UI Design for Things UIX" link="https://www.behance.net/gallery/117507041/ThingsUIX" type="Featured Project" github="/" />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Wedding Organizer Website"
-                img={selaras}
-                summary="Website landing page about Wedding Organizer for Selaras Wedding Organizer. Create with HTML, CSS with Bootstrap. you can see portfolio about wedding organizer"
-                link="https://www.selaras-organizer.com/"
-                type="Featured Project"
-                github="/"
-              />
+              <Project title="Design App Calculator Zakat" img={kalkulatorZakat} summary="UI Design for Calculator Zakat" link="https://www.behance.net/gallery/117544401/Zakat-App-UI" type="Featured Project" github="/" />
             </div>
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProject
-                title="Wedding Organizer Website"
-                img={selaras}
-                summary="Website landing page about Wedding Organizer for Selaras Wedding Organizer. Create with HTML, CSS with Bootstrap. you can see portfolio about wedding organizer"
-                link="https://www.selaras-organizer.com/"
+                title="Website Jakarta Super Gym"
+                img={jakartaGym}
+                summary="This Project Website landing page create with react.js , TailwindCss and Framer Motion"
+                link="https://github.com/mauladifardhan/jakarta-super-gym"
                 type="Featured Project"
-                github="/"
+                github="https://github.com/mauladifardhan/jakarta-super-gym"
               />
+            </div> */}
+            <div className="col-span-6 sm:col-span-12">
+              <Project title="Website Admin Store" img={webAdmin} summary="Website Admin Store with HTML, CSS, and Javascript" link="https://www.behance.net/gallery/172166299/Admin-Dashboard" type="Featured Project" github="/" />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Wedding Organizer Website"
-                img={selaras}
-                summary="Website landing page about Wedding Organizer for Selaras Wedding Organizer. Create with HTML, CSS with Bootstrap. you can see portfolio about wedding organizer"
-                link="https://www.selaras-organizer.com/"
+                title="Website Jakarta Super Gym"
+                img={jakartaGym}
+                summary="This Project Website landing page create with react.js , TailwindCss and Framer Motion"
+                link="https://github.com/mauladifardhan/jakarta-super-gym"
                 type="Featured Project"
-                github="/"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Wedding Organizer Website"
-                img={selaras}
-                summary="Website landing page about Wedding Organizer for Selaras Wedding Organizer. Create with HTML, CSS with Bootstrap. you can see portfolio about wedding organizer"
-                link="https://www.selaras-organizer.com/"
-                type="Featured Project"
-                github="/"
+                github="https://github.com/mauladifardhan/jakarta-super-gym"
               />
             </div>
           </div>

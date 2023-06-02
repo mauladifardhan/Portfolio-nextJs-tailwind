@@ -8,7 +8,7 @@ import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
-import TransitionEffect from "@/components/transitionEffect";
+import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
-                <Link href="mailto:fardhan16@gmail.com" target="_blank" className="ml-4 text-lg font-medium capitalize textdark underline dark:text-light md:text-base">
+                <Link href="https://bit.ly/mauladifardhan" target="_blank" className="ml-4 text-lg font-medium capitalize textdark underline dark:text-light md:text-base">
                   Contact
                 </Link>
               </div>
